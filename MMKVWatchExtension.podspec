@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "iOS/MMKV/MMKV/MMKV.h", "iOS/MMKV/MMKV/MMKVHandler.h"
 
   s.framework    = "CoreFoundation"
-  s.libraries    = "z", "c++"
+  # s.libraries    = "z", "c++"
   s.requires_arc = false
   s.pod_target_xcconfig = {
     "CLANG_CXX_LANGUAGE_STANDARD" => "gnu++17",
